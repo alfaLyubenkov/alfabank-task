@@ -1,0 +1,34 @@
+<xref>
+  <whenMade>1458777991023</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>LookupADefinition.story</name>
+      <path>localhost/alfabank/task/stories/consult_dictionary/LookupADefinition.story</path>
+      <html>localhost.alfabank.task.stories.consult_dictionary.LookupADefinition.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Looking up the definition of &apos;apple&apos;
+Given the user is on the Wikionary home page
+When the user looks up the definition of the word &apos;apple&apos;
+Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;
+
+
+Scenario:Looking up the definition of &apos;pear&apos;
+Given the user is on the Wikionary home page
+When the user looks up the definition of the word &apos;pear&apos;
+Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1458777956248</started>
+      <duration>32090</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>
